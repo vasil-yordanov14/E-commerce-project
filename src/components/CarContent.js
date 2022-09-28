@@ -22,8 +22,8 @@ const CartContent = () => {
         <button type="btn" className="link-btn clear-btn" onClick={clearCart}>
           clear shopping cart
         </button>
-        <CartTotals />
       </div>
+      <CartTotals />
     </Wrapper>
   );
 };
